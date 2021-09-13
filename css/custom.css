@@ -1,0 +1,135 @@
+/* Styling The Body */
+
+body {
+    background-color: rgb(83, 235, 151);
+}
+
+
+/* Stylling Paragraphs */
+
+p {
+    font-family: sans-serif;
+}
+
+
+/* Styling The Carousel */
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+}
+
+
+/* Styling The Profile Pictures */
+
+.container {
+    max-width: 960px;
+    text-align: center;
+}
+
+.container img {
+    border: solid 2px rgb(83, 235, 151);
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.container img:hover {
+    border: solid 2px gray;
+}
+
+.team {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    margin-bottom: 2rem;
+}
+
+
+/* Styling THe Section Divider */
+
+.section-divider {
+    margin: 3rem 0;
+}
+
+
+/* Styling The Section of Featured Items */
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.card {
+    border: solid 5px rgb(73, 73, 73);
+}
+
+
+/* Styling The Like Button */
+
+#like:hover {
+    color: red;
+}
+
+
+/* Styling THe send Button */
+
+#submit {
+    background-color: rgb(104, 100, 100);
+    border: solid 3px rgb(73, 73, 73);
+}
+
+#submit:hover {
+    background-color: rgb(73, 73, 73);
+    border: solid 3px rgb(104, 100, 100);
+}
+
+
+/* Styling The footer */
+
+.footer-section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+}
+
+footer {
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+footer p {
+    color: black;
+    margin-top: 15px;
+}
+
+footer a {
+    color: rgb(73, 73, 73);
+}
+
+
+/* Styling The Responsive Layout */
+
+@media (min-width: 1200px) {
+    .feature-heading {
+        margin-top: 10rem;
+    }
+}
+
+@media ( max-width: 768px) {
+    #mail {
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 540px) {
+    #carouselImg {
+        display: none;
+    }
+    .team {
+        margin-top: 2rem;
+    }
+}

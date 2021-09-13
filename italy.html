@@ -1,0 +1,175 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Comaptible" content="ie=edge">
+    <title> FoodieFanatix</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="font-awesome/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a href="#" class="navbar-brand" style="font-family: magneto;">FoodieFanatix</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                <div class="navbar-nav">
+                    <a href="index.html" class="nav-item nav-link" style="color: rgb(83, 235, 151);">Home <i class="fas fa-home"></i></a>
+                    <a href="about.html" class="nav-item nav-link" style="color: rgb(83, 235, 151);">About <i class="fas fa-info"></i></a>
+                    <a href="contact.html" class="nav-item nav-link" style="color: rgb(83, 235, 151);">Contact <i class="fas fa-phone"></i></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="carouselImg" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselImg" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselImg" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselImg" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselImg" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/italy-flag.png" class="d-block w-100" height="83%" />
+                    <div class="carousel-caption">
+                        <h1>Italy</h1>
+                        <p>A country that is passionate about its history and culture, but even more passionate about its cuisine!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/italy-city-1.jpeg" class="d-block w-100" height="83%" />
+                    <div class="carousel-caption">
+                        <h1>Naples, Italy</h1>
+                        <p>A city that was the birth place for classic italian dishes and tastes!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/italy-city-2.jpg" class="d-block w-100" height="83%" />
+                    <div class="carousel-caption">
+                        <h1>Bologna, Italy</h1>
+                        <p>A cultural mueseum that is made from preserved architecture and serves food based preserved recipes!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/italy-city-3.jpeg" class="d-block w-100" height="83%" />
+                    <div class="carousel-caption">
+                        <h1>Venice, Italy</h1>
+                        <p>A romantic and visually appealing city with even more appealing cuisine!</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselImg" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselImg" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+        <div class="row container mx-auto">
+            <div class="column" id="posts">
+                <div class="card mb-4 mt-5 box-shadow">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Ragu Alla Bolognese</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="images/italy-dish-1.jpg" class="card-img-top" />
+                        <p class="card-text" style="text-align: center;">The national dish of Italia and widely used staple. It consists of the special bolognese sauce made up of tomatoes, minced beef, garlic, wine, and herbs. This is all served with a selected pasta generally elongated and thin. A
+                            garnish is optional usually basil leaves. It is a wonderful dish with a noteworthy richness and distinctive taste. </p>
+                        <p class="card-text"><strong>City <i class="fas fa-city"></i>:</strong> Bologna</p>
+                        <p class="card-text"><strong>Rating <i class="fas fa-star"></i>:</strong> 4.3/5</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-lg btn-link" id="like"><i class="far fa-heart"></i></button>
+                                <button type="button" class="btn btn-lg btn-link"><i class="far fa-comment"></i></button>
+                                <button type="button" class="btn btn-lg btn-link"><i class="fas fa-retweet"></i></button>
+                            </div>
+                            <small class="text-muted">Restaurant name: Antonio's Kitchen</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row container mx-auto">
+            <div class="column" id="posts">
+                <div class="card mb-4 mt-5 box-shadow">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Focaccia</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="images/italy-dish-2.jpg" class="card-img-top" />
+                        <p class="card-text" style="text-align: center;">A traditional italian bread made from flatened dough topped with cheese and tomatoes as well as basil, olives, and oregano garnishes. This bread is a wonderfull starter to your dining experience or as a partner with some rich red
+                            wine! This bread must NOT be underestimated it is full of flavour and will have you coming back for another slice!</p>
+                        <p class="card-text"><strong>City <i class="fas fa-city"></i>:</strong> Venice</p>
+                        <p class="card-text"><strong>Rating <i class="fas fa-star"></i>:</strong> 4/5</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-lg btn-link" id="like"><i class="far fa-heart"></i></button>
+                                <button type="button" class="btn btn-lg btn-link"><i class="far fa-comment"></i></button>
+                                <button type="button" class="btn btn-lg btn-link"><i class="fas fa-retweet"></i></button>
+                            </div>
+                            <small class="text-muted">Restaurant Name: Ciao Bella</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row container mx-auto">
+            <div class="column" id="posts">
+                <div class="card mb-4 mt-5 box-shadow">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Lasagne</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="images/italy-dish-3.jpg" class="card-img-top" />
+                        <p class="card-text" style="text-align: center;"> An extremely popular dish throughout the world, but italy knows how to make it right! Traditional dishes are made of layers of flat and wide pasta with a sauce consisting of: meat, vegetables and cheese. Once baked this dish will
+                            captivate you and your taste buds, through its richness ans well as its exceptionally soft and creamy texture!</p>
+                        <p class="card-text"><strong>City <i class="fas fa-city"></i>:</strong> Nepales</p>
+                        <p class="card-text"><strong>Rating <i class="fas fa-star"></i>:</strong> 4.8/5</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-lg btn-link" id="like"><i class="far fa-heart"></i></button>
+                                <button type="button" class="btn btn-lg btn-link"><i class="far fa-comment"></i></button>
+                                <button type="button" class="btn btn-lg btn-link"><i class="fas fa-retweet"></i></button>
+                            </div>
+                            <small class="text-muted">Restaurant Name: Mama's Special Spot</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container team ">
+            <a href="thailand.html"><img src="images/thailand-flag.png" class="img-thumbnail rounded-circle" width="90" /></a>
+            <a href="france.html"><img src="images/france-flag.png" class="img-thumbnail rounded-circle" width="90" /></a>
+            <a href="germany.html"><img src="images/germany-flag.png" class="img-thumbnail rounded-circle" width="90" /></a>
+            <a href="italy.html"><img src="images/italy-flag.png" class="img-thumbnail rounded-circle" width="90" /></a>
+            <a href="russia.html"><img src="images/russia-flag.png" class="img-thumbnail rounded-circle" width="90" /></a>
+            <a href="greece.html"><img src="images/greece-flag.png" class="img-thumbnail rounded-circle" width="90" /></a>
+        </div>
+
+
+
+        <hr class="section-divider" />
+        <footer class="container footer-section">
+            <p class="float-right" style="float: right;"><a href="#" class="text-decoration-none">Back To Top <i class="fas fa-arrow-up"></i></a></p>
+            <p>&copy; 2021 Deanvd Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        </footer>
+    </main>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
